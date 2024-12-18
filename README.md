@@ -1,2 +1,2 @@
 # hello
-c files
+c theory
