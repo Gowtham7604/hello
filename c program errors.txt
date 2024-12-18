@@ -1,0 +1,31 @@
+1.Syntax errors: Errors that occur when you violate the rules of writing C/C++ syntax are known as syntax errors. This compiler error indicates something that must be fixed before the code can be compiled. All these errors are detected by compiler and thus are known as compile-time errors. 
+Most frequent syntax errors are: 
+Missing Parenthesis (})
+Printing the value of variable without declaring it
+Missing semicolon like this:
+2.Run-time Errors : Errors which occur during program execution(run-time) after successful compilation are called run-time errors
+3.Semantic errors : This error occurs when the statements written in the program are not meaningful to the compiler.
+4.Logical Errors  : On compilation and execution of a program, desired output is not obtained when certain input values are given
+5. Linker Errors  : When the program is successfully compiled and attempting to link the different object files with the main object file, errors will occur.
+Static Memory Allocation
+Dynamic Memory Allocation
+
+	In the static memory allocation, variables get allocated permanently,
+ till the program executes or function call finishes.	
+
+                                                                                     In the Dynamic memory allocation, variables get allocated only 
+                                                                                     if your program unit gets activate	
+2.Static Memory Allocation is done before program execution.	                    Dynamic Memory Allocation is done during program execution.
+3	It uses stack for managing the static allocation of memory	             It uses heap for managing the dynamic allocation of memory
+4	It is less efficient	It is more efficient
+5	In Static Memory Allocation, there is no memory re-usability	              In Dynamic Memory Allocation, there is memory re-usability 
+                                                                                         and memory can be freed when not required
+6	In static memory allocation, once the memory is allocated,
+          the memory size can not change.	                                       In dynamic memory allocation, when memory is allocated the memory size can be changed.
+7	In this memory allocation scheme, we cannot reuse the unused memory.	        This allows reusing the memory. The user can allocate more memory when required. 
+                                                                                             Also, the user can release the memory when the user needs it.
+8	In this memory allocation scheme, execution is faster than
+              dynamic memory allocation.	                                       In this memory allocation scheme, execution is slower than static memory allocation.
+9	In this memory is allocated at compile time.	                              In this memory is allocated at run time.
+10	In this allocated memory remains from start to end of the program.	                In this allocated memory can be released at any time during the program.
+11	Example: This static memory allocation is generally used for array.	        Example: This dynamic memory allocation is generally used for linked list.
